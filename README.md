@@ -1,8 +1,8 @@
 # Internship Learning Journal  
-**Name:** Your Name  
-**USN:** YOUR USN
-**GitHub Username:** Your GitHub Username  
-**Department:** (CSE-AIML / CSE / ISE)  
+**Name:** Aditya Mirajkar  
+**USN:** 2BL22CS007
+**GitHub Username:** ADITYAMIRAJKAR  
+**Department:** ( CSE )  
 **Internship Start Date:** 03-02-2026
 
 ---
