@@ -71,6 +71,18 @@ Course Link: https://tds.s-anand.net/#/
 * Built and deployed containerized FastAPI applications to Hugging Face Spaces using Dockerfiles.
 * Automated testing and deployment workflows (CI/CD) using GitHub Actions.
 * Wrote automated bash scripts using `curl` to rapidly test API endpoints.
+
+### Week 3
+
+* Understood foundational LLM concepts including tokenization, embeddings, context windows, and self-attention mechanisms.
+* Generated text and multimodal (image) embeddings using OpenAI and Nomic APIs via Python (`httpx`).
+* Implemented mathematical comparisons for semantic search by calculating Cosine Similarity using NumPy.
+* Built a miniature Retrieval-Augmented Generation (RAG) system involving data chunking, embedding, and context querying.
+* Explored Hybrid RAG techniques combining vector search with exact keyword matching using TypeSense.
+* Developed conversational AI chatbots capable of maintaining state and history across interactions.
+* Converted binary image data to Base64 strings to programmatically interact with multimodal vision models.
+* Implemented Function Calling to enforce strict JSON schemas and extract structured data from unstructured image/text inputs.
+* Explored LLM evaluation workflows using `promptfoo` to test prompt accuracy, latency, and cost-effectiveness.
 ---
 
 ## ❓ Doubts / Topics to Revisit
