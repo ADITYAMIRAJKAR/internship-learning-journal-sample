@@ -143,3 +143,89 @@ Instead of navigating messy DOM structures with Selenium or BeautifulSoup, this 
 This signifies a massive shift in data extraction from writing brittle code-based logic to leveraging adaptable vision-based AI.
 
 ---
+
+## 7. Document Standardization (MarkItDown)
+
+**Overview:**
+I explored Microsoft's MarkItDown, a tool designed to convert diverse file formats into standardized Markdown, optimizing them for LLM consumption.
+
+**Key Skills Acquired:**
+* Operating the tool without an LLM for rapid, direct parsing of structured documents and simple PDFs.
+* Pairing it with an LLM to activate OCR capabilities, understand complex layouts, and boost formatting accuracy.
+
+**Core Concepts:**
+* Markdown is optimal because it is lightweight, readable by humans, platform-independent, and highly conducive to RAG (Retrieval-Augmented Generation) chunking.
+* While MarkItDown is a strong tool, alternatives like Docling are currently more feature-rich and mature.
+* High-quality data preprocessing is the absolute foundation for getting good performance out of AI systems.
+
+**Practical Application:**
+This workflow is vital for cleaning PDFs, structuring enterprise knowledge bases, generating datasets, and preparing RAG pipelines.
+
+---
+
+## 8. Geocoding with Nominatim
+
+
+**Overview:**
+Learned how to translate plain-text location names (e.g., "IIT Madras") into highly structured geographic coordinates.
+
+**Key Skills Acquired:**
+* Accessing the OpenStreetMap-powered Nominatim service using the `geopy` Python library.
+* Ensuring the mandatory `user_agent` parameter is passed during the API call.
+* Extracting attributes like Longitude, Latitude, display names, bounding boxes, and categorizations (such as type: "university" or class: "amenity") from the returned JSON.
+
+**Practical Application:**
+Converting unstructured text into spatial intelligence is highly applicable for geo-tagging data, delivery logistics, urban planning, and mapping applications.
+
+---
+
+## 9. Advanced Scraping & Debugging Strategies (DocSearch)
+
+**Overview:**
+This session covered the philosophy and strategy of building a semantic search engine proof-of-concept.
+
+**Key Concepts & Techniques:**
+* **Keyword vs. Semantic Search:** Keyword relies on identical word matching, while semantic uses vector embeddings to match the actual meaning of the query.
+* **The Power of Caching:** Writing a `cached_get()` function to save HTML responses to the local disk. This stops the script from re-downloading files on every run, safely handles interruptions, and drastically accelerates debugging. 
+* **Modular Scraping:** Breaking the architecture into tiny steps: fetching archives -> extracting URLs -> removing duplicates -> downloading articles -> parsing text -> saving data.
+* **XPath Mastery:** Using DevTools to find stable parent `div` containers and avoiding volatile sidebars. Relying on the `contains()` function in XPath instead of exact class matches to handle website variations.
+* **Incremental Saves:** Writing JSON data to the disk *inside* the execution loop. This prevents catastrophic data loss if the scraper crashes hours into a run.
+* **Handling Edge Cases:** Building logic to anticipate empty HTTP 200 responses, class mismatches, URL redirects, and duplicates.
+
+**Top Debugging Tips:**
+1.  Print variables constantly to ensure assumptions meet reality.
+2.  Deploy `breakpoint()` commands to freeze execution and inspect the environment.
+3.  Use "Rubber Ducking" by explaining the broken code aloud to an LLM or a peer.
+
+---
+
+## 10. Extracting Data from PDFs
+
+
+**Overview:**
+PDF scraping requires a completely different pipeline compared to standard HTML extraction due to layout complexities.
+
+**Key Skills Acquired:**
+* **Bulk Downloading:** Using BeautifulSoup to scrape anchor tags, isolating `.pdf` links, pulling the filename via `link.split("/")[-1]`, and writing the files to disk in binary mode. This eliminates manual downloading.
+* **Table Extraction:** Utilizing the `tabula` library (`read_pdf()`), which operates very similarly to Pandas.
+* **Fixing Layout Errors:** When scraping landscape pages, Tabula frequently pulled in garbage text (like logos or headers). I solved this by passing exact bounding box coordinates using the `area=[top, left, bottom, right]` argument to force the scraper to only look at the table grid.
+* **Direct Export:** Using the `convert_into()` function to bypass manual formatting and dump the extracted tables straight into CSVs.
+
+**Practical Application:**
+This automated pipeline is perfect for extracting tables from research papers, sports statistics, government records, and corporate financial reports.
+
+---
+
+## 11. Vibe Coding
+
+**Overview:**
+This module focused on modern "idea-first" development workflows rather than getting lost in "syntax-first" coding.
+
+**Key Skills Acquired:**
+* Translating abstract problem statements into structured, actionable coding steps.
+* Harnessing AI assistance for rapid application prototyping.
+* Integrating APIs, parsing JSON payloads, and properly isolating API keys in environment variables for security.
+* Practicing effective prompt engineering to force LLMs to output clean, modular code.
+
+**Overall Takeaway:**
+This workshop massively boosted my confidence in designing products rather than just writing scripts. It proved that AI vastly accelerates development velocity, provided the developer maintains strong logical structuring and problem-solving skills.
