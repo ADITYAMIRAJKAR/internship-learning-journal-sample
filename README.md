@@ -96,5 +96,6 @@ Course Link: https://tds.s-anand.net/#/
 | :--- | :--- |
 | **Week 1** | Configured a local Linux workspace via WSL/macOS, gained proficiency in Git version control with SSH authentication, installed essential CLI utilities (UV, LLM), and embedded AI capabilities directly into the terminal environment. |
 | **Week 2** | Explored container management and networking using Podman, developed backend REST APIs via FastAPI, managed cloud deployments across platforms (Vercel, Hugging Face, GitHub Pages), and set up CI/CD automation through GitHub Actions. |
+| **Week 3** | Deep-dived into LLM mechanics including text/image embeddings, engineered a custom Retrieval-Augmented Generation (RAG) architecture for semantic search, programmed memory-enabled chatbots, and leveraged function calling to enforce structured JSON outputs. |
 ---
 
