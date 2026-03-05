@@ -25,6 +25,7 @@ Course Link: https://tds.s-anand.net/#/
 | Module 01 | Foundations | Completed |
 | Module 02 | Tools & Implementation | Completed |
 | Module 03 | LLM Concepts, Embeddings, RAG, Multimodal & Deployment | Completed |
+| Module 04 | Data Sourcing | Completed |
 
 ---
 
