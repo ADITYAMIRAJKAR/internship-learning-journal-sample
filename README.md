@@ -84,6 +84,20 @@ Course Link: https://tds.s-anand.net/#/
 * Converted binary image data to Base64 strings to programmatically interact with multimodal vision models.
 * Implemented Function Calling to enforce strict JSON schemas and extract structured data from unstructured image/text inputs.
 * Explored LLM evaluation workflows using `promptfoo` to test prompt accuracy, latency, and cost-effectiveness.
+
+### Week 4 (Module 4)
+
+* Extracted live web data directly into Excel utilizing the Power Query feature for lightweight, no-code scraping.
+* Engineered Python-based web scrapers using `requests` and `BeautifulSoup` to parse HTML DOM trees and structure data into `pandas` DataFrames.
+* Programmatically queried the official Wikipedia API via Python wrappers to extract summaries, references, and tabular data.
+* Implemented robust data cleaning pipelines to sanitize scraped text (e.g., regex, string splitting, and type casting).
+* Automated the scheduled execution of scraping scripts using GitHub Actions and Cron syntax.
+* Pioneered vision-based data extraction by passing screen-recorded frames to multimodal LLMs (Gemini) to bypass complex HTML parsing.
+* Standardized unstructured documents and PDFs into clean Markdown using Microsoft MarkItDown to optimize them for LLM/RAG consumption.
+* Converted plain-text addresses into structured spatial intelligence (Latitude/Longitude) using the Nominatim API and `geopy`.
+* Architected a semantic search proof-of-concept, incorporating advanced debugging strategies like local HTML caching and dynamic XPath targeting.
+* Automated the extraction of tabular data from complex PDF layouts using the `tabula` library and targeted bounding boxes.
+* Adopted "Vibe Coding" methodologies for rapid, AI-assisted application prototyping and idea-first development.
 ---
 
 ## ❓ Doubts / Topics to Revisit
