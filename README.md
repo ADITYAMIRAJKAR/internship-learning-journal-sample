@@ -1,7 +1,7 @@
 # Internship Learning Journal  
 **Name:** Aditya Mirajkar  
-**USN:** 2BL22CS007
-**GitHub Username:** ADITYAMIRAJKAR  
+**USN:** 2BL22CS007   
+**GitHub Username:** ADITYAMIRAJKAR   
 **Department:** ( CSE )  
 **Internship Start Date:** 03-02-2026
 
@@ -112,5 +112,6 @@ Course Link: https://tds.s-anand.net/#/
 | **Week 1** | Configured a local Linux workspace via WSL/macOS, gained proficiency in Git version control with SSH authentication, installed essential CLI utilities (UV, LLM), and embedded AI capabilities directly into the terminal environment. |
 | **Week 2** | Explored container management and networking using Podman, developed backend REST APIs via FastAPI, managed cloud deployments across platforms (Vercel, Hugging Face, GitHub Pages), and set up CI/CD automation through GitHub Actions. |
 | **Week 3** | Deep-dived into LLM mechanics including text/image embeddings, engineered a custom Retrieval-Augmented Generation (RAG) architecture for semantic search, programmed memory-enabled chatbots, and leveraged function calling to enforce structured JSON outputs. |
+| **Week 4** | Mastered diverse data extraction techniques ranging from traditional HTML parsing (`BeautifulSoup`, XPath) and PDF table extraction (`tabula`) to cutting-edge vision-based AI scraping. Automated workflows using GitHub Actions and standardized unstructured data for AI pipelines. |
 ---
 
