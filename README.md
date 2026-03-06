@@ -1,9 +1,9 @@
 # Internship Learning Journal  
-**Name:** Aditya Mirajkar  
+**Name:** Aditya Mirajkar    
 **USN:** 2BL22CS007   
 **GitHub Username:** ADITYAMIRAJKAR   
-**Department:** ( CSE )  
-**Internship Start Date:** 03-02-2026
+**Department:** ( CSE )   
+**Internship Start Date:** 03-02-2026  
 
 ---
 
@@ -58,6 +58,7 @@ Course Link: https://tds.s-anand.net/#/
 * Automated repository creation and management using the GitHub CLI (`gh`).
 * Leveraged AI tools (GitHub Copilot, LLM CLI) to enhance coding productivity and content creation.
 
+
 ### Week 2
 
 * Learned core containerization concepts and managed lightweight containers using Podman.
@@ -85,7 +86,7 @@ Course Link: https://tds.s-anand.net/#/
 * Implemented Function Calling to enforce strict JSON schemas and extract structured data from unstructured image/text inputs.
 * Explored LLM evaluation workflows using `promptfoo` to test prompt accuracy, latency, and cost-effectiveness.
 
-### Week 4 (Module 4)
+### Week 4 
 
 * Extracted live web data directly into Excel utilizing the Power Query feature for lightweight, no-code scraping.
 * Engineered Python-based web scrapers using `requests` and `BeautifulSoup` to parse HTML DOM trees and structure data into `pandas` DataFrames.
@@ -98,6 +99,7 @@ Course Link: https://tds.s-anand.net/#/
 * Architected a semantic search proof-of-concept, incorporating advanced debugging strategies like local HTML caching and dynamic XPath targeting.
 * Automated the extraction of tabular data from complex PDF layouts using the `tabula` library and targeted bounding boxes.
 * Adopted "Vibe Coding" methodologies for rapid, AI-assisted application prototyping and idea-first development.
+
 ---
 
 ## ❓ Doubts / Topics to Revisit
