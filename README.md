@@ -29,18 +29,6 @@ Course Link: https://tds.s-anand.net/#/
 
 ---
 
-## ✍️ How to Use This Repository
-- Each **module** has its own folder  
-- Each **chapter** has a separate markdown file  
-- Record:
-  - Key concepts  
-  - Examples  
-  - Commands / code snippets  
-  - Doubts  
-  - Learnings  
-
----
-
 ## 🚀 Key Learnings So Far
 
 
