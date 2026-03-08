@@ -42,3 +42,10 @@ Extracting the first name from a "Last Name, First Name" format in cell A1:
 =MID(A1, FIND(",", A1) + 2, LEN(A1))
 
 ```
+2. Shell Commands for Data Prep
+Extracting lines from an Apache Log containing the word "GET" and cutting out the IP address (assuming it's the first column):
+
+```
+grep "GET" access.log | cut -d' ' -f1 > ip_addresses.txt
+
+```
