@@ -42,10 +42,17 @@ Extracting the first name from a "Last Name, First Name" format in cell A1:
 =MID(A1, FIND(",", A1) + 2, LEN(A1))
 
 ```
-2. Shell Commands for Data Prep
+### 2. Shell Commands for Data Prep
 Extracting lines from an Apache Log containing the word "GET" and cutting out the IP address (assuming it's the first column):
 
 ```
 grep "GET" access.log | cut -d' ' -f1 > ip_addresses.txt
+
+```
+### 3. Parsing JSON in the Shell with jq
+Extracting the name field from a JSON array of users:
+
+```Bash
+cat users.json | jq '.[] | .name'
 
 ```
