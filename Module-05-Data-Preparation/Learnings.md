@@ -56,3 +56,23 @@ Extracting the name field from a JSON array of users:
 cat users.json | jq '.[] | .name'
 
 ```
+4. Fast Analytics with DuckDB
+Running a SQL query directly on a CSV file in the terminal:
+
+```SQL
+SELECT region, SUM(sales) 
+FROM read_csv_auto('sales_data.csv') 
+GROUP BY region;
+```
+5. Media Processing (FFmpeg & WebP)
+Extracting audio from a video file:
+
+```Bash
+ffmpeg -i input_video.mp4 -vn -acodec libmp3lame output_audio.mp3
+```
+Converting a lossy JPEG to an optimized WebP image:
+
+```Bash
+cwebp -q 80 input_image.jpg -o output_image.webp
+
+```
