@@ -89,6 +89,16 @@ Course Link: https://tds.s-anand.net/#/
 * Automated the extraction of tabular data from complex PDF layouts using the `tabula` library and targeted bounding boxes.
 * Adopted "Vibe Coding" methodologies for rapid, AI-assisted application prototyping and idea-first development.
 
+### Week 5
+
+* Mastered data cleansing, transformation, and aggregation techniques in Excel utilizing advanced functions (e.g., `TEXTSPLIT`, `XLOOKUP`) and Pivot Tables.
+* Engineered efficient terminal-based data processing pipelines using Unix command-line utilities (`grep`, `awk`, `cut`) to filter and manipulate massive text files.
+* Executed high-speed, in-process analytical queries on raw CSV and Parquet files leveraging DuckDB.
+* Orchestrated robust SQL data transformation workflows and models utilizing `dbt` (data build tool).
+* Sanitized and standardized messy datasets using OpenRefine through advanced faceting, clustering algorithms, and GREL expressions.
+* Extracted and flattened complex, nested JSON data structures utilizing `jq` for the CLI and `pandas` in Python.
+* Automated multimedia processing tasks, including batch image transformations via ImageMagick and audio extraction from video files using FFmpeg.
+* Generated text transcripts from extracted audio files utilizing Python and speech-to-text models like Whisper.
 ---
 
 ## ❓ Doubts / Topics to Revisit
