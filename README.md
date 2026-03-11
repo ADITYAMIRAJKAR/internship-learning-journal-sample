@@ -114,5 +114,7 @@ Course Link: https://tds.s-anand.net/#/
 | **Week 2** | Explored container management and networking using Podman, developed backend REST APIs via FastAPI, managed cloud deployments across platforms (Vercel, Hugging Face, GitHub Pages), and set up CI/CD automation through GitHub Actions. |
 | **Week 3** | Deep-dived into LLM mechanics including text/image embeddings, engineered a custom Retrieval-Augmented Generation (RAG) architecture for semantic search, programmed memory-enabled chatbots, and leveraged function calling to enforce structured JSON outputs. |
 | **Week 4** | Mastered diverse data extraction techniques ranging from traditional HTML parsing (`BeautifulSoup`, XPath) and PDF table extraction (`tabula`) to cutting-edge vision-based AI scraping. Automated workflows using GitHub Actions and standardized unstructured data for AI pipelines. |
+| **Week 5** | Mastered diverse data preparation techniques across multiple environments, from advanced Excel functions and terminal-based text processing (`awk`, `grep`) to in-process SQL analytics with DuckDB and `dbt` transformations. Sanitized messy datasets using OpenRefine, parsed complex nested JSON structures, and implemented media processing pipelines to transform images and extract/transcribe audio using utilities like ImageMagick and FFmpeg. |
+
 ---
 
