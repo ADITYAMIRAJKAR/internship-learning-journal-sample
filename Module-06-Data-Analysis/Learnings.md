@@ -81,4 +81,43 @@ SQL is optimized for querying and analyzing large datasets directly within a rel
     ```
 
 ---
+## 3. Database Analysis
+
+### Data Analysis with Datasette
+Datasette is an open-source tool that instantly turns SQLite databases into an interactive web interface and a REST API.
+* **Use Case:** Great for rapidly publishing datasets, exploring data via a UI, and sharing analytical results as interactive tables or JSON endpoints without building a backend.
+* **Execution:**
+    ```bash
+    datasette serve my_database.db
+    ```
+
+### Data Analysis with DuckDB
+DuckDB is an analytical (OLAP) database optimized for fast querying on complex data, running entirely in-process.
+* **Fast Aggregations on Raw Files:**
+    ```sql
+    -- Querying a Parquet file directly for aggregations
+    SELECT 
+        department, 
+        AVG(salary) as avg_salary 
+    FROM read_parquet('employees.parquet') 
+    GROUP BY department 
+    ORDER BY avg_salary DESC;
+    ```
+
+---
+
+## 4. AI Analysis
+
+### Vibe Analysis
+"Vibe Analysis" refers to using Large Language Models (LLMs) to perform qualitative analysis, sentiment extraction, and pattern recognition on unstructured text data.
+* **Workflow:** Passing bulk text (like user reviews, social media posts, or interview transcripts) to an LLM via API to classify the "vibe" (sentiment, urgency, underlying intent) that traditional rule-based sentiment analysis might miss.
+* **Python Example (Pseudo-code via OpenAI/Gemini API):**
+
+   ```python
+    # Prompting an LLM to categorize the unstructured 'vibe' of a dataset
+    prompt = f"Analyze the following feedback and categorize the overall 'vibe' as positive, frustrated, or confused. Feedback: {user_text}"
+
+    ```
+
+---
 
