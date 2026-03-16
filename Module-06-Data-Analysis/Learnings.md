@@ -121,3 +121,46 @@ DuckDB is an analytical (OLAP) database optimized for fast querying on complex d
 
 ---
 
+## 5. Specialized Analysis
+
+### Geospatial Analysis with Excel
+Handling location data within spreadsheets.
+* **Geography Data Types:** Convert cells containing country/city names to the "Geography" data type (`Data` > `Data Types` > `Geography`) to automatically pull in demographic and spatial data.
+* **3D Maps:** Use `Insert` > `3D Map` to plot geographic coordinates or location names onto a globe.
+
+### Geospatial Analysis with Python
+Using Python for programmatic mapping and spatial operations.
+* **Using GeoPandas:**
+    ```python
+    import geopandas as gpd
+
+    # Load a shapefile
+    gdf = gpd.read_file("neighborhoods.shp")
+    
+    # Calculate the area of each polygon
+    gdf['area'] = gdf.geometry.area
+    
+    # Plot the map
+    gdf.plot(column='area', cmap='viridis', legend=True)
+    ```
+
+### Geospatial Analysis with QGIS
+QGIS is a powerful, open-source desktop Geographic Information System (GIS) application.
+* **Capabilities:** Used for viewing, editing, and analyzing geospatial data. Perfect for complex spatial joins, creating heatmaps, and layering vector (shapefiles/GeoJSON) and raster (satellite imagery) data visually without code.
+
+### Network Analysis in Python
+Analyzing relationships and connections between entities (nodes and edges).
+* **Using NetworkX:**
+    ```python
+    import networkx as nx
+
+    # Create a graph
+    G = nx.Graph()
+    G.add_edges_from([('UserA', 'UserB'), ('UserA', 'UserC'), ('UserB', 'UserD')])
+
+    # Calculate Degree Centrality (who is the most connected?)
+    centrality = nx.degree_centrality(G)
+    print(centrality)
+    ```
+
+    
