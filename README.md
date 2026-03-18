@@ -27,6 +27,7 @@ Course Link: https://tds.s-anand.net/#/
 | Module 03 | LLM Concepts, Embeddings, RAG, Multimodal & Deployment | Completed |
 | Module 04 | Data Sourcing | Completed |
 | Module 05 | Data Preparation | Completed |
+| Module 06 | Data-Analysis | Completed |
 
 ---
 
