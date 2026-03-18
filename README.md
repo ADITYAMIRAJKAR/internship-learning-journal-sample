@@ -100,6 +100,18 @@ Course Link: https://tds.s-anand.net/#/
 * Extracted and flattened complex, nested JSON data structures utilizing `jq` for the CLI and `pandas` in Python.
 * Automated multimedia processing tasks, including batch image transformations via ImageMagick and audio extraction from video files using FFmpeg.
 * Generated text transcripts from extracted audio files utilizing Python and speech-to-text models like Whisper.
+
+### Week 6
+
+* Executed statistical data analysis in Excel, utilizing built-in functions for correlation, linear regression, time-series forecasting, and outlier detection (Z-scores, IQR).
+* Programmed robust exploratory data analysis (EDA) pipelines using Python and the `pandas` library to compute descriptive statistics and aggregate categorical data.
+* Engineered advanced SQL queries incorporating window functions to calculate dynamic running totals and perform complex ranking across structured datasets.
+* Deployed interactive, web-based database exploration interfaces and instant REST APIs utilizing Datasette.
+* Leveraged DuckDB for high-performance, in-process analytical (OLAP) querying directly on raw Parquet files.
+* Pioneered "Vibe Analysis" workflows by integrating Large Language Models (LLMs) to extract qualitative sentiment and underlying intent from unstructured text data.
+* Conducted geospatial analysis and visualization utilizing Python (`GeoPandas`), QGIS, and Excel 3D Maps to process spatial geometries and shapefiles.
+* Mapped complex entity relationships and calculated degree centrality metrics using Python's `NetworkX` library for advanced network analysis.
+
 ---
 
 ## ❓ Doubts / Topics to Revisit
