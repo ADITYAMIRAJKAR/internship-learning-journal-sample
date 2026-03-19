@@ -128,6 +128,6 @@ Course Link: https://tds.s-anand.net/#/
 | **Week 3** | Deep-dived into LLM mechanics including text/image embeddings, engineered a custom Retrieval-Augmented Generation (RAG) architecture for semantic search, programmed memory-enabled chatbots, and leveraged function calling to enforce structured JSON outputs. |
 | **Week 4** | Mastered diverse data extraction techniques ranging from traditional HTML parsing (`BeautifulSoup`, XPath) and PDF table extraction (`tabula`) to cutting-edge vision-based AI scraping. Automated workflows using GitHub Actions and standardized unstructured data for AI pipelines. |
 | **Week 5** | Mastered diverse data preparation techniques across multiple environments, from advanced Excel functions and terminal-based text processing (`awk`, `grep`) to in-process SQL analytics with DuckDB and `dbt` transformations. Sanitized messy datasets using OpenRefine, parsed complex nested JSON structures, and implemented media processing pipelines to transform images and extract/transcribe audio using utilities like ImageMagick and FFmpeg. |
-
+| **Week 6** | Progressed into comprehensive data analysis methodologies spanning multiple ecosystems. Applied statistical modeling in Excel (regression, forecasting) and programmed Python/`pandas` pipelines for EDA. Leveraged SQL window functions and DuckDB for advanced database analytics, deployed Datasette APIs, and utilized LLMs for qualitative "vibe" analysis. Expanded into spatial and relationship modeling using `GeoPandas`, QGIS, and `NetworkX`. |
 ---
 
