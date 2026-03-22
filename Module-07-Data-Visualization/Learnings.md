@@ -122,3 +122,35 @@ Seaborn is a Python data visualization library based on matplotlib. It provides 
 
 ---
 
+## 4. Animated Visualization
+
+### Visualizing Animated Data with PowerPoint
+PowerPoint can create compelling animations to show data changing over time.
+* **The "Morph" Transition:** Duplicate a slide, change the size/position of your chart elements (like growing a bar chart), and apply the `Transitions` > `Morph` effect. PowerPoint will seamlessly animate the data changing state.
+
+### Visualizing Animated Data with Flourish
+Flourish is a powerful platform for creating interactive and animated charts without coding.
+* **Use Case:** Highly popular for "Bar Chart Races" (showing rankings changing over time), animated line charts, and interactive maps. Data is uploaded via CSV, and animations are handled automatically by the platform's templates.
+
+---
+
+## 5. Network Visualization
+
+### Visualizing Network Data with Kumu
+Kumu is a web-based platform for mapping systems and complex networks.
+* **Concept:** You define "Elements" (nodes) and "Connections" (edges). It allows you to visualize relationship maps, stakeholder ecosystems, and social networks interactively.
+
+### Actor Network Visualization
+Based on Actor-Network Theory (ANT), this involves visualizing not just human relationships, but the interactions between humans, tools, ideas, and environments within a system.
+
+---
+
+## 6. AI Visualization
+
+### Data Visualization with ChatGPT
+Modern LLMs with Advanced Data Analysis capabilities can execute Python code in the background to generate charts directly from uploaded files.
+* **Example Prompt for ChatGPT/Gemini:** > "I've attached a CSV of our customer feedback scores from the last 12 months. Please generate a cleanly formatted Seaborn line chart showing the trend over time. Annotate any significant dips or spikes."
+
+### Data Storytelling with LLMs
+Using LLMs to write the narrative that surrounds your charts.
+* **Concept:** Feed your raw data or statistical summaries into the LLM and prompt it to generate an executive summary, identify the "hook" of the data story, or draft presentation talking points that explain the *why* behind the visualization.
