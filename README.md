@@ -113,6 +113,17 @@ Course Link: https://tds.s-anand.net/#/
 * Conducted geospatial analysis and visualization utilizing Python (`GeoPandas`), QGIS, and Excel 3D Maps to process spatial geometries and shapefiles.
 * Mapped complex entity relationships and calculated degree centrality metrics using Python's `NetworkX` library for advanced network analysis.
 
+### Week 7
+
+* Mastered data storytelling principles and engineered code-driven, reproducible presentations using `Reveal.js` (HTML/CSS) and `Marp` (Markdown).
+* Built reactive, interactive data exploration interfaces utilizing Python's `Marimo` notebook ecosystem.
+* Visualized predictive analytics and time-series projections directly within Excel using the automated Forecast Sheet algorithms.
+* Programmed complex, statistically-informed static graphics (e.g., linear regression plots) utilizing Python's `Seaborn` and `matplotlib` libraries.
+* Bridged raw tabular data with advanced vector graphics using the RAWgraphs framework for complex static visualizations.
+* Designed dynamic, time-based visual narratives utilizing PowerPoint's Morph transitions and the Flourish studio platform (e.g., bar chart races).
+* Mapped complex systems, stakeholder interactions, and Actor-Network relationships visually utilizing the Kumu platform.
+* Leveraged LLMs (ChatGPT/Gemini Advanced Data Analysis) to programmatically generate charts from unstructured datasets and synthesize compelling narrative data stories.
+
 ---
 
 ## ❓ Doubts / Topics to Revisit
